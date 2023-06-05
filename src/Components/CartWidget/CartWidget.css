@@ -1,0 +1,31 @@
+    .cart{
+        width: 150%;
+        height: 100px;
+        cursor: pointer;
+        font-size: 30px;
+        padding-right: 0.5rem;
+        color: #9313fc;
+        border-radius: 50%;
+        
+    }
+    .cart:hover{
+        box-shadow: 0 0 50px #f1f1f1;    
+        color: #13d1fc;
+    }
+    
+    .notificacion{
+        color: #ffffff;
+        padding-right: 1rem;
+    }
+
+    .addCart{
+        width: 150%;
+        height: 100px;
+        cursor: pointer;
+        font-size: 30px;
+        padding-left: 1.5rem;
+        color: #9313fc;
+    }
+    .addCart:hover{
+        color: #13d1fc;
+    }
