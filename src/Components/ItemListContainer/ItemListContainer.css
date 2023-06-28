@@ -2,7 +2,6 @@
 
 
 .banner {
-    position: relative;
     width: 100%;
     height: 80vh;
     background-color: rgba(1, 23, 21, 0.876);
@@ -46,6 +45,206 @@
         font-family: 'Orbitron', sans-serif;
     }
 
+    .container{
+        margin: auto; 
+        width: 100%;
+        display:flex;
+        padding-top: 2rem;
+        flex-wrap: wrap;
+        border-radius: 5px;
+    }
+    
+    .Container-detail{
+        padding-top: 5rem;
+        padding-bottom:10rem ;
+    
+    }
+    
+    .Container-detail .card-detail{
+        margin: auto; 
+        width: 50%;
+        display:flex;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        padding-left: 1rem;
+        padding-right: 2rem;
+        border: solid #9313fc;
+        background-color: rgba(0, 0, 0, 0.89);
+    }
+    
+    .card-detail{
+        margin:50px;
+        font-size: 18px;
+        padding-bottom: 5rem;
+    }
+    .card-detail .img-detail{
+        width: 65%;
+        margin-left:100px;
+        padding-top: 1rem;
+        margin-bottom:1rem ;
+    }
+    
+    .card-body-detail{
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        font-weight: 600;
+        
+    }
+    
+    .nombreCard-detail{
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #fefefe;
+    }
+    .modeloCard-detail{
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #fefefe;
+    }
+    .precioCard-detail{
+        font-size: 20px;
+        text-transform: uppercase; 
+        color: #13d1fc;
+    }
+    
+    .stockCard-detail{
+        font-size: 16px;
+        text-transform: uppercase; 
+        color:#9313fc ;
+    }
+    
+    
+    
+    .card-footer-detail{
+        text-align: center;
+        padding-right: 100px;
+        padding-bottom: 2rem;
+        
+        
+    }
+    
+    .card-footer-detail button{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 18px;
+        background-color:#9313fc;
+        border-radius: 50px;
+    
+    }
+    
+    .card-footer-detail button:hover{
+        background-color: #13d1fc;
+        color: #120120 ;
+        font-weight: 600;
+        border-radius: 50px;
+    }
+    
+    .card{
+        margin:50px;
+        font-size: 18px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .card-body{
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        font-weight: 600;
+    }
+    .nombreCard{
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #110120;
+    }
+    
+    .precioCard{
+        font-size: 18px;
+        text-transform: uppercase; 
+        color: #9313fc;
+    }
+    
+    .card img{
+        width: 70%;
+        margin-left:55px;
+        padding-top: 1rem;
+        margin-bottom:1rem ;
+        
+    }
+    
+    
+    .card-footer{
+        text-align: center;
+        
+    }
+    .card-footer  button{
+        min-width: 50%;
+        height: 100%;
+        text-align: center;
+        font-size: 18px;
+        background-color: rgb(78, 10, 142);
+    
+    }
+    
+    .card-footer button:hover{
+        background-color:#9313fc;
+    
+    }
+    
+    .cargando{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    
+    @media (max-width: 900px) {
+        .container .card{
+            min-width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .card{
+            margin: 25px;
+        
+        }
+        
+        .card img{
+            width: 50%;
+            }
+        
+        .card-footer{
+            width: 100%;
+            font-size: 12px;
+            
+        }
+        .card-footer button{
+        width: 50%;
+    
+        
+        }
+        .Container-detail .card-detail{
+            min-width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-right: 6rem;
+        }
+        
+        .card-detail{
+            margin: 25px;
+        }
+        .card-detail .img-detail{
+            width: 90%;
+            padding-right: 100px;
+        }
+    
+        }
+
     @media screen and (max-width: 600px) {
         .banner{
             width: 100%;
@@ -61,5 +260,75 @@
         p {
             font-size: 15px;
         }
+
+    .container .card{
+        min-width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .card{
+        margin: 25px;
+    
+    }
+    
+    .card img{
+        width: 80%;
+        padding-right: 20%;
+        }
+    
+    .card-footer{
+        width: 100%;
+        font-size: 12px;
+        
+    }
+    .card-footer button{
+    width: 50%;
+    }
+    
+    .Container-detail .card-detail{
+        min-width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 6rem;
+    }
+    
+    .card-detail{
+        margin: 25px;
+    }
+    .card-detail .img-detail{
+        width: 110%;
+        margin: 30px;
+        padding-right: 10px;
+    }
+    
+    .nombreCard-detail{
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #fefefe;
+        
+    }
+    .modeloCard-detail{
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #fefefe;
+    }
+    .precioCard-detail{
+        font-size: 16px;
+        text-transform: uppercase; 
+        color: #13d1fc;
+    }
+    
+    .stockCard-detail{
+        font-size: 12px;
+        text-transform: uppercase; 
+        color:#9313fc ;
+    }
+    
         
     }

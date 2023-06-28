@@ -33,7 +33,6 @@
     .navbar ul li:hover {
         border-radius: 0 5px;
         padding: 20px;
-        color:#9313fc;
         font-weight: bold; 
         }
     
@@ -52,6 +51,10 @@
         padding-bottom: 2rem;
         margin: 0 35px;
         }
+
+        .nav_toggle{
+            display: none;
+        }
     
         @media (max-width: 1000px) {
         .navbar{
@@ -63,6 +66,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: #110120;
         }
 
         .navbar .logo-game{
@@ -75,7 +79,7 @@
 
             transition: none;
             background: none;
-            color: #9313fc;
+            color:#13d1fc;
             }
 
             .active {
@@ -90,12 +94,24 @@
         .navbar{
             max-width: 100%;
         }
-
+        /* .links{
+            position: absolute;
+            top: 60px;
+            left: 0;
+            background: #9313fc;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: -webkit-fill-available;
+            transform: translate(-100%);
+            transition: 0.3s w;
+        } */
         ul{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: #110120;
         }
 
         .navbar .logo-game{
@@ -108,13 +124,36 @@
 
             transition: none;
             background: none;
-            color: #9313fc;
+            color:#13d1fc;
             }
 
             .active {
             background: none;
             color: #9313fc;
             }
-
+            .nav_toggles{
+                width: 100px;
+            }
+            .nav_toggle span{
+                width: 30px;
+                height: 4px;
+                background: #f6f6f6;
+                margin-bottom: 5px;
+                border-radius: 2px;
+                transform-origin: 5px 0px;
+                transition: all 0.2s linear;
+            }
+            .nav_toggle.open > span{
+                transform: rotate(45deg) translate(0px, 0px);    
+            }
+            .nav_toggle.open > span{
+                transform: rotate(45deg) translate(0px, 0px);
+            }
+            .nav_toggle.open > span:nth-child(2){
+                display: none;
+            }
+            .nav_toggle.open > span:nth-child(3){
+                transform: rotate(-45deg) translate(-5px, 1px);
+            }
     
         }
