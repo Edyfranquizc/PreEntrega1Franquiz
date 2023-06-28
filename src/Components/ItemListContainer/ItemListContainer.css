@@ -47,7 +47,7 @@
 
     .container{
         margin: auto; 
-        width: 100%;
+        width: 50%;
         display:flex;
         padding-top: 2rem;
         flex-wrap: wrap;
@@ -59,8 +59,48 @@
         padding-bottom:10rem ;
     
     }
+    .card{
+        margin: 0 auto;
+        margin-bottom: 15px;
+        border: 1px solid #000;
+        max-width: 340px;
+        border-radius: 4px;
+        text-align: center;
+        position: static;
+        
+        
+    }
+    .card-body{
+        max-width: 100%;
+        max-height:100% ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        scroll-margin: 30ex;
+        font-size: 15px;
+        padding-top: 3rem;
+        padding-bottom: 5rem; 
+    }
+
+    .nombreCard{
+    font-size: 0.5rem;
+    }
+
+    .card button {
+        border: 0;
+        margin: 15px 0;
+        background-image: linear-gradient(to bottom, #12b7c7, #009ec5, #0084bf, #0069b3, #004c9f, #22409a, #373394, #47218a, #562197, #661fa4, #761ab1, #8810bd);
+        color: white;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        font-size: 15px;
+    }
     
     .Container-detail .card-detail{
+
         margin: auto; 
         width: 50%;
         display:flex;
