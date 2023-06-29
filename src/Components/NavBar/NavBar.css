@@ -5,6 +5,7 @@
     width: 100%;
     padding: 8px;
     background-color: #110120;
+    position: fixed;
 
     }
 
@@ -40,7 +41,7 @@
     
         }
     
-    .active {
+    .active{
     margin: auto;
     color:#9313fc;
     padding: 10px;

@@ -45,20 +45,6 @@
         font-family: 'Orbitron', sans-serif;
     }
 
-    .container{
-        margin: auto; 
-        width: 50%;
-        display:flex;
-        padding-top: 2rem;
-        flex-wrap: wrap;
-        border-radius: 5px;
-    }
-    
-    .Container-detail{
-        padding-top: 5rem;
-        padding-bottom:10rem ;
-    
-    }
     .card{
         margin: 0 auto;
         margin-bottom: 15px;
@@ -79,14 +65,22 @@
         flex-wrap: wrap;
         scroll-margin: 30ex;
         font-size: 15px;
-        padding-top: 3rem;
+        padding-top: 2rem;
         padding-bottom: 5rem; 
     }
 
     .nombreCard{
-    font-size: 0.5rem;
+        font-size: 15px;
+        font-weight:bold;
+        text-transform: uppercase;
+        color: #110120;
     }
-
+    
+    .precioCard{
+        font-size: 18px;
+        text-transform: uppercase; 
+        color: #9313fc;
+    }
     .card button {
         border: 0;
         margin: 15px 0;
@@ -97,6 +91,22 @@
         border-radius: 2px;
         cursor: pointer;
         font-size: 15px;
+    }
+
+
+    .container{
+        margin: auto; 
+        width: 50%;
+        display:flex;
+        padding-top: 2rem;
+        flex-wrap: wrap;
+        border-radius: 5px;
+    }
+    
+    .Container-detail{
+        padding-top: 5rem;
+        padding-bottom:10rem ;
+    
     }
     
     .Container-detail .card-detail{
@@ -166,50 +176,30 @@
     }
     
     .card-footer-detail button{
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        font-size: 18px;
-        background-color:#9313fc;
-        border-radius: 50px;
+        border: 0;
+        margin: 15px 0;
+        background-image: linear-gradient(to bottom, #12b7c7, #009ec5, #0084bf, #0069b3, #004c9f, #22409a, #373394, #47218a, #562197, #661fa4, #761ab1, #8810bd);
+        color: white;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        font-size: 15px;
     
     }
     
     .card-footer-detail button:hover{
         background-color: #13d1fc;
-        color: #120120 ;
+        color: #f7f5f8 ;
         font-weight: 600;
         border-radius: 50px;
     }
-    
-    .card{
-        margin:50px;
-        font-size: 18px;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-    
-    .card-body{
-        padding-top: 5rem;
-        padding-bottom: 1rem;
-        font-weight: 600;
-    }
-    .nombreCard{
-        font-size: 15px;
-        text-transform: uppercase;
-        color: #110120;
-    }
-    
-    .precioCard{
-        font-size: 18px;
-        text-transform: uppercase; 
-        color: #9313fc;
-    }
+
     
     .card img{
         width: 70%;
         margin-left:55px;
-        padding-top: 1rem;
+        padding-top: 5rem;
         margin-bottom:1rem ;
         
     }
