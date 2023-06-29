@@ -7,6 +7,7 @@
     background-color: #110120;
 
     }
+
     .navbar ul{
         float: right;
     }
@@ -16,16 +17,17 @@
     line-height: 100px;
     margin: 0 35px;
     cursor:pointer;
+
     }
     
     .navbar ul li  {
-    color: #f6f6f6;
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
     padding: 15px 15px;
     border-radius: 0 20px;
     text-transform: uppercase;
+    color: #f6f6f6;
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 2s;
     }
@@ -34,11 +36,13 @@
         border-radius: 0 5px;
         padding: 20px;
         font-weight: bold; 
+        color: #13d1fc;
+    
         }
     
     .active {
     margin: auto;
-    color: #9313fc;
+    color:#9313fc;
     padding: 10px;
     }
     

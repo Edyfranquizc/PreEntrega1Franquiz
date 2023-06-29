@@ -13,10 +13,11 @@ img {
   }
 a{
   text-decoration: none;
+  color: #fefefee7;
 }
 
 a:hover{
-  color: #ba39d7;
+  color:#13d1fc;
 }
 
 body{
